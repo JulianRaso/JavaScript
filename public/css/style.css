@@ -2,7 +2,40 @@ body{
     background: lightblue;
 }
 
-.titulo{
+.screen {
+    display: flex;
+
+}
+
+.sidebar-show{
+    display: block;
+    left: 0;
+    width: 150px;
+    height: 500px;
+    background-color: lightgray;
+}
+
+.sidebar-hidden{
+    display: none;
+    left: 0;
+    width: 150px;
+    height: 500px;
+    background-color: lightgray;
+}
+
+.sidebar header{
     font-size: medium;
-    align-content: center;
+    text-align: center;
+    color: black;
+    background-color: blue;
+    user-select: none;
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 1rem;
+    color: black;
 }
